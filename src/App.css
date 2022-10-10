@@ -1,38 +1,78 @@
 .App {
   text-align: center;
+    color: rgb(32, 107, 97);
+    text-decoration-line: underline;
+    font-size: larger;
+    font-style: italic;
+    font-variant: small-caps;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.question-card {
+  
+  margin: 0 auto;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  
+  width: 80%; /* Can be in percentage also. */
+  height: auto;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+  background-color: rgb(110, 185, 141);
+  padding: 16px;
+  border-radius: 16px;
   color: white;
+  box-shadow: rgba(77, 182, 63, 0.25) 0px 30px 60px -12px,
+    rgba(35, 201, 118, 0.3) 0px 18px 36px -18px;
 }
 
-.App-link {
-  color: #61dafb;
+ul {
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li {
+  margin-top: 8px;
+  background-color: rgb(25, 165, 123);
+  padding: 16px;
+  border: 3px solid rgb(69, 209, 228);
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.question-text {
+  color: rgb(139, 0, 116);
+  font-size: 26px;
+}
+
+/* Final Results  */
+
+.final-results {
+  /* Center the div  */
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 50%; /* Can be in percentage also. */
+  height: auto;
+  margin-top: 64px;
+
+  /* Visual  */
+  background-color: rgb(22, 179, 132);
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(136, 156, 148, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+button {
+  background-color: rgb(179, 255, 0); /* Green */
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+
+  border-radius: 24px;
 }
